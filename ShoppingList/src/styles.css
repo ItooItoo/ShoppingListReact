@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    flex-direction: column;
+}
+
+.list {
+    margin-left: 20px;
+    width: 100%;
+    align-items: left;
+}
+
+.list li {
+    margin: 0 0 5px 0;
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+}
+
+.list button {
+    margin-left: 30vh;
+    background: none;
+    outline: none;
+    border: none;
+    color: red;
+    font-weight: bold;    
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.lii {
+    width: 25px;
+}
+
+.list-element {
+    display: flex;
+}
+
+input[type=text] {
+    margin-top: 30px;
+    width: 30vh;
+    height: 2.5vh;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Inter', sans-serif;
+}
+
+input[type=submit] {
+    margin-left: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: #8ecae6;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover {
+    background-color: #649eb9;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
